@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="735" viewBox="120 120 680 520" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Zenith luminous flower orb</title>
+  <desc id="desc">A sculptural rose-copper fantasy flower with translucent pink petals, golden filaments, and a radiant amber core. The background is transparent.</desc>
+  <defs>
+    <radialGradient id="coreGlow" gradientUnits="userSpaceOnUse" cx="458" cy="444" r="185">
+      <stop offset="0" stop-color="#fffbe4" stop-opacity="1"/>
+      <stop offset=".10" stop-color="#ffdf92" stop-opacity=".92"/>
+      <stop offset=".28" stop-color="#ffae58" stop-opacity=".30"/>
+      <stop offset=".60" stop-color="#ff7f3c" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#ff7f3c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="petalPink" x1=".1" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#ffe6d2"/>
+      <stop offset=".18" stop-color="#f9b8ad"/>
+      <stop offset=".43" stop-color="#c96f70"/>
+      <stop offset=".67" stop-color="#743b43"/>
+      <stop offset=".84" stop-color="#3b2028"/>
+      <stop offset="1" stop-color="#f7b98c"/>
+    </linearGradient>
+    <linearGradient id="petalLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff2d8"/>
+      <stop offset=".22" stop-color="#ffcbb5"/>
+      <stop offset=".52" stop-color="#e58a8a"/>
+      <stop offset=".78" stop-color="#8c4651"/>
+      <stop offset="1" stop-color="#3b202b"/>
+    </linearGradient>
+    <linearGradient id="petalCopper" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#fff0d0"/>
+      <stop offset=".16" stop-color="#efa9a0"/>
+      <stop offset=".4" stop-color="#b85e68"/>
+      <stop offset=".64" stop-color="#61313e"/>
+      <stop offset=".86" stop-color="#291922"/>
+      <stop offset="1" stop-color="#d99470"/>
+    </linearGradient>
+    <linearGradient id="petalShadow" x1=".1" y1="0" x2=".9" y2=".95">
+      <stop offset="0" stop-color="#efada1"/>
+      <stop offset=".25" stop-color="#8a4551"/>
+      <stop offset=".6" stop-color="#301923"/>
+      <stop offset=".83" stop-color="#160f16"/>
+      <stop offset="1" stop-color="#d58b6d"/>
+    </linearGradient>
+    <linearGradient id="vein" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8dc" stop-opacity=".96"/>
+      <stop offset=".42" stop-color="#ffca89" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#e77c72" stop-opacity=".06"/>
+    </linearGradient>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8d7"/>
+      <stop offset=".3" stop-color="#fbd18b"/>
+      <stop offset=".65" stop-color="#e99a58"/>
+      <stop offset="1" stop-color="#fff0bd"/>
+    </linearGradient>
+    <radialGradient id="petalSheen" cx="30%" cy="18%" r="85%">
+      <stop offset="0" stop-color="#fff7e6" stop-opacity=".92"/>
+      <stop offset=".28" stop-color="#ffc5b7" stop-opacity=".48"/>
+      <stop offset=".72" stop-color="#e78383" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#27131d" stop-opacity=".15"/>
+    </radialGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="petalDrop" x="-25%" y="-20%" width="150%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+      <feOffset dy="9" dx="2" result="off"/>
+      <feColorMatrix in="off" type="matrix" values="0 0 0 0 .05  0 0 0 0 .015  0 0 0 0 .025  0 0 0 .48 0" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Warm halo behind the flower, with no opaque backdrop -->
+
+  <!-- Deep outer petals, arranged as a low layered rosette -->
+  <g filter="url(#petalDrop)">
+    <path d="M448 454 C380 432 285 469 226 530 C292 545 365 553 431 516 C454 497 465 476 448 454Z" fill="url(#petalShadow)" stroke="#d98b76" stroke-opacity=".65" stroke-width="2.5"/>
+    <path d="M459 455 C394 462 337 524 308 589 C378 587 435 557 469 505 C480 483 476 466 459 455Z" fill="url(#petalCopper)" stroke="#e8a27c" stroke-opacity=".72" stroke-width="2.4"/>
+    <path d="M469 460 C431 496 415 562 432 631 C484 596 512 542 503 493 C496 474 482 463 469 460Z" fill="url(#petalShadow)" stroke="#e9ae86" stroke-opacity=".72" stroke-width="2.4"/>
+    <path d="M477 456 C479 511 520 570 583 601 C597 536 574 478 525 450 C505 441 488 443 477 456Z" fill="url(#petalCopper)" stroke="#f3bc92" stroke-opacity=".73" stroke-width="2.5"/>
+    <path d="M482 445 C532 468 609 460 672 421 C617 378 550 374 503 409 C486 420 479 435 482 445Z" fill="url(#petalShadow)" stroke="#d88b76" stroke-opacity=".7" stroke-width="2.2"/>
+    <path d="M468 442 C531 429 584 378 610 314 C542 314 486 347 458 397 C448 418 453 435 468 442Z" fill="url(#petalCopper)" stroke="#f0b48b" stroke-opacity=".7" stroke-width="2.4"/>
+    <path d="M454 435 C485 385 474 314 437 253 C396 310 391 371 423 419 C433 433 444 439 454 435Z" fill="url(#petalShadow)" stroke="#d78b77" stroke-opacity=".66" stroke-width="2.4"/>
+    <path d="M442 438 C413 385 349 350 276 348 C300 413 350 454 406 463 C427 463 440 452 442 438Z" fill="url(#petalCopper)" stroke="#f2b88e" stroke-opacity=".72" stroke-width="2.3"/>
+    <path d="M438 449 C382 421 312 432 247 468 C294 517 356 532 408 505 C427 493 438 471 438 449Z" fill="url(#petalShadow)" stroke="#d88877" stroke-opacity=".72" stroke-width="2.4"/>
+  </g>
+
+  <!-- Main broad petals with translucent, luminous faces -->
+  <g stroke-linejoin="round" filter="url(#petalDrop)">
+    <!-- left foreground petal -->
+    <path d="M437 428 C378 390 284 391 216 430 C238 465 283 487 329 489 C374 490 414 468 445 444 C449 437 445 431 437 428Z" fill="url(#petalPink)" stroke="#ffd8b4" stroke-width="3.5" stroke-opacity=".86"/>
+    <path d="M437 430 C374 410 300 418 230 440 C292 438 356 449 420 443" stroke="url(#vein)" stroke-width="3.2" stroke-linecap="round" opacity=".92"/>
+    <path d="M422 440 C371 429 319 444 273 460 C326 449 374 457 411 450" stroke="#ffe7c4" stroke-width="1.4" opacity=".6"/>
+
+    <!-- left upright petal -->
+    <path d="M437 422 C387 379 365 297 385 219 C442 241 476 288 482 340 C487 377 467 410 447 429 C442 431 438 427 437 422Z" fill="url(#petalLight)" stroke="#ffe0be" stroke-width="4" stroke-opacity=".86"/>
+    <path d="M443 414 C422 354 408 285 393 236 C426 294 443 352 452 408" stroke="url(#vein)" stroke-width="4" stroke-linecap="round" opacity=".96"/>
+    <path d="M452 403 C448 354 435 303 415 267" stroke="#fff3d4" stroke-width="1.6" opacity=".72"/>
+
+    <!-- upper central petal -->
+    <path d="M441 416 C423 359 427 270 467 181 C505 206 534 257 533 311 C531 364 496 405 457 430 C449 431 444 425 441 416Z" fill="url(#petalLight)" stroke="#ffe4c7" stroke-width="4" stroke-opacity=".9"/>
+    <path d="M452 413 C456 347 463 263 478 199 C485 275 482 350 461 414" stroke="url(#vein)" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M467 408 C473 344 489 285 504 244" stroke="#fff2d5" stroke-width="1.8" opacity=".75"/>
+
+    <!-- upper right petal -->
+    <path d="M460 419 C478 358 520 280 584 227 C613 273 616 324 596 367 C574 413 526 433 476 438 C466 437 460 429 460 419Z" fill="url(#petalPink)" stroke="#ffdfbd" stroke-width="4" stroke-opacity=".88"/>
+    <path d="M469 423 C509 367 549 301 582 239 C563 313 530 380 477 429" stroke="url(#vein)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M488 419 C529 367 560 324 578 278" stroke="#ffe8cc" stroke-width="1.5" opacity=".72"/>
+
+    <!-- right upright petal -->
+    <path d="M467 432 C507 390 568 363 642 376 C627 427 594 461 545 474 C511 483 480 463 467 444 C464 440 464 436 467 432Z" fill="url(#petalCopper)" stroke="#f8c29a" stroke-width="3.4" stroke-opacity=".82"/>
+    <path d="M477 438 C526 416 581 398 630 390 C584 416 531 438 481 444" stroke="url(#vein)" stroke-width="3.4" stroke-linecap="round"/>
+
+    <!-- front right petal -->
+    <path d="M464 448 C504 435 563 450 604 486 C576 519 533 536 493 520 C474 511 463 483 459 459 C459 454 461 450 464 448Z" fill="url(#petalPink)" stroke="#f2b28f" stroke-width="3.2" stroke-opacity=".83"/>
+    <path d="M469 454 C509 464 551 484 590 493 C547 490 508 477 468 461" stroke="url(#vein)" stroke-width="3.2" stroke-linecap="round"/>
+
+    <!-- front lower petal -->
+    <path d="M450 448 C419 462 394 495 399 534 C423 551 457 555 484 539 C510 523 514 494 494 468 C480 451 465 444 450 448Z" fill="url(#petalCopper)" stroke="#ffd3a4" stroke-width="3.5" stroke-opacity=".82"/>
+    <path d="M455 458 C448 482 440 513 429 536 C455 518 472 491 461 462" stroke="url(#vein)" stroke-width="3.6" stroke-linecap="round"/>
+
+    <!-- back glimmer petals -->
+    <path d="M438 428 C391 387 352 334 351 282 C384 297 416 335 437 377 C447 396 447 414 438 428Z" fill="url(#petalShadow)" stroke="#e6a081" stroke-width="2.7" stroke-opacity=".82"/>
+    <path d="M463 421 C485 360 523 317 565 294 C561 348 521 402 474 432" fill="url(#petalShadow)" stroke="#e6a081" stroke-width="2.5" stroke-opacity=".8"/>
+  </g>
+
+  <!-- Fine luminous botanical filaments looping around the bloom -->
+  <g stroke="url(#goldLine)" stroke-linecap="round" fill="none" filter="url(#tinyGlow)">
+    <path d="M451 448 C395 391 355 354 299 357 C240 360 202 389 191 411 C215 425 258 411 282 393" stroke-width="2.6" opacity=".92"/>
+    <path d="M456 444 C476 382 526 321 575 273 C614 235 654 217 686 232 C706 242 711 269 694 291" stroke-width="2.7" opacity=".95"/>
+    <path d="M461 445 C516 406 585 398 627 420 C648 432 655 451 641 465" stroke-width="2" opacity=".8"/>
+    <path d="M451 445 C424 372 428 309 454 256 C468 227 492 207 515 211 C540 215 550 245 541 272" stroke-width="2.4" opacity=".82"/>
+    <path d="M449 447 C407 429 368 434 348 455 C334 470 341 486 357 488" stroke-width="1.6" opacity=".7"/>
+    <path d="M460 446 C490 463 507 482 506 503" stroke-width="1.5" opacity=".82"/>
+  </g>
+
+  <!-- Translucent petal facets and warm reflected edges -->
+  <g fill="url(#petalSheen)" opacity=".7">
+    <path d="M437 424 C390 381 368 303 390 228 C425 266 449 332 451 400 C449 413 444 421 437 424Z"/>
+    <path d="M443 413 C424 352 430 270 468 186 C480 255 478 337 456 414Z"/>
+    <path d="M463 421 C486 357 529 282 583 230 C600 293 583 362 528 406 C503 423 480 431 463 421Z"/>
+    <path d="M436 430 C380 400 295 401 224 432 C275 461 349 472 421 446Z"/>
+    <path d="M467 441 C511 425 570 443 601 485 C563 514 521 528 488 507Z"/>
+  </g>
+
+  <!-- Golden center -->
+  <ellipse cx="457" cy="444" rx="76" ry="62" fill="url(#coreGlow)" opacity=".98"/>
+  <ellipse cx="458" cy="441" rx="37" ry="31" fill="#ffbd6e" opacity=".42" filter="url(#softGlow)"/>
+  <g filter="url(#tinyGlow)">
+    <path d="M457 451 C435 436 429 418 440 406 C448 397 460 403 463 416 C469 401 484 401 491 412 C500 427 480 444 457 451Z" fill="#f9b36a" stroke="#fff1c8" stroke-width="2.5"/>
+    <path d="M457 448 C445 431 450 415 459 411 C468 422 467 435 457 448Z" fill="#fff5d4"/>
+    <path d="M447 448 C431 438 424 433 416 424 M463 449 C483 437 493 429 501 416 M453 452 C449 465 448 471 449 480 M464 451 C470 462 476 467 484 470" stroke="#ffe7a6" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="458" cy="442" r="8" fill="#fffbe6"/>
+    <circle cx="458" cy="442" r="3.2" fill="#fff"/>
+  </g>
+
+  <!-- Tiny seed lights around the flower, still on transparent canvas -->
+  <g fill="#ffdc9a" filter="url(#tinyGlow)">
+    <circle cx="374" cy="409" r="2.5"/><circle cx="399" cy="425" r="1.8"/><circle cx="487" cy="400" r="2"/>
+    <circle cx="511" cy="433" r="2.4"/><circle cx="423" cy="462" r="1.8"/><circle cx="477" cy="480" r="2"/>
+    <circle cx="527" cy="461" r="1.6"/><circle cx="396" cy="448" r="1.5"/><circle cx="470" cy="389" r="1.4"/>
+  </g>
+</svg>
