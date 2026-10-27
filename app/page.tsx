@@ -104,7 +104,7 @@ export default function HomePage() {
           </article>
           <article className="event-card">
             <span className="event-icon"><MapPin size={27} strokeWidth={1.45} /></span>
-            <div className="event-info"><span className="event-label">Venue</span><h3>Central Hall</h3><p className="event-caption">The celebration awaits</p><span className="mini-star">✦</span></div>
+            <div className="event-info"><span className="event-label">Venue</span><h3>Centenary Hall</h3><p className="event-caption">The celebration awaits</p><span className="mini-star">✦</span></div>
             <span className="card-corner card-corner-tr"/><span className="card-corner card-corner-bl"/>
           </article>
         </div>
